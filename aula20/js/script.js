@@ -27,7 +27,7 @@ function meuEscopo() {
     altura.value = '';
   }
 
-  form.addEventListener('submit', recebeEventoForm)
+  form.addEventListener('submit', recebeEventoForm);
 }
 
 meuEscopo();

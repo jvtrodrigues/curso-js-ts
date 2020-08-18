@@ -30,6 +30,11 @@ body {
   border-radius: 16px;
 }
 
+.tabela {
+  display: flex;
+  justify-content: space-around;
+}
+
 form input, form label, form button {
   display: block;
   width: 100%;
@@ -63,4 +68,17 @@ form button {
 
 form button:hover {
   background: var(--primary-color-darker);
+}
+
+.paragrafo-resultado {
+  padding: 10px 20px;
+}
+
+.paragrafo-resultado-certo {
+  background: #DFD;
+}
+
+
+.paragrafo-resultado-erro {
+  background: #FDD;
 }
