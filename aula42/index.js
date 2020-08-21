@@ -1,5 +1,5 @@
-//escreva uma função que recebe 2 numeros e retorne o maior deles
+//funcao que informa se uma imagem esta no modo paisagem atraves da largura e altura informada
 
-const max = (x, y) => x > y ? x : y;
+const ePaisagem = (largura, altura) => largura >= altura;
 
-console.log(max(230, 54));
+console.log(ePaisagem(1080, 1940));
